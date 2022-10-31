@@ -7,13 +7,13 @@ const app = express()
 const compression = require('compression')
 app.use(compression())
 
-/*
+
 app.get("/api", (req, res) =>{
     res.json({"users": ["UserOne" , "UserTwo" , "UserThree"]})
 } )
 
-app.listen(5001 , () => {console.log("Server started on 5001")} )
-*/
+app.listen(5001 , () => {console.log("Server started on 3001")} )
+
 
 
 // for the view engine and using to load a html file in the front as an ejs 
@@ -32,6 +32,6 @@ app.use('/users' , userRouter)
 
 //const PORT = process.env.PORT || 3001 ; 
  
-app.listen(PORT , () =>{
+app.listen(process.env.PORT , () =>{
     console.log(`Server is listening on ${process.env.PORT}`)
 })
