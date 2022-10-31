@@ -1,0 +1,15 @@
+#Dependency directory 
+node_modules
+
+
+#debug log from npm 
+npm-debug.log
+
+
+
+package_lock.json
+
+.DS_Store
+
+#environment vairiables 
+.env
