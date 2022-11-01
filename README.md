@@ -3,7 +3,7 @@ The webapp for the project and the auto-builder webapp
 
 First go into the Server folder and do 
 1.)'npm install' to install all the dependencies 
-2.)go to .env.example and set the port of the server of your choice and change the name of the file to ".env"
+2.)write envup in command line and specify the port number and NODE_ENV for the running of project 
 3.)then run command 'npm run dev' to start the server
 
 Go into the Client folder and again run 
